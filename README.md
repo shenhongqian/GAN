@@ -1,4 +1,4 @@
- ### **GAN系列论文阅读**
+### **GAN系列论文阅读**
 **GAN开山鼻祖**：[Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
 
 **作者**：Ian J. Goodfellow（第一作者，单位蒙特利尔大学）
