@@ -102,8 +102,16 @@ GAN设计的初衷是图像合成。可应用于有监督和无监督，从此�
  2. 合成字体
  [zi2zi: Master Chinese Calligraphy with Conditional Adversarial Networks](https://kaonashi-tyc.github.io/2017/04/06/zi2zi.html)
  合成字体的问题：
- （1）合成的字体单一，字体风格变化有限
+ 合成的字体单一，字体风格变化有限如下图所示：
  <img src="./pic/5.jpeg" width="50%" height="50%">
+ 当合成的多种风格的字体时，各种风格之间模糊，如果要合成多种风格并保证每种风格的合成质量，
+ 
+ 解决方法为<b>类别嵌入一对多建模</b>
+ 当同一个汉字可以出现在多种字体当中， pix2pix 模型并没有解决这种一对多的关系。“类别嵌入”（category embedding）的方法，将不可训练的高斯噪声作为风格嵌入（style embedding）与汉字嵌入（character embedding）串联起来，之后再一并进入解码器。解码器仍旧将同一个汉字映射为同一个向量，但是，解码器会同时考虑汉字和风格两个嵌入来生成目标汉字。生成结果如下图所示：
+ 
+  ![多种风格字体](./pic/6.jpg)
+ 
+ 
  
  
  
