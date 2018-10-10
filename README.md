@@ -1,4 +1,4 @@
-# GAN### **GAN系列论文阅读**
+ ### **GAN系列论文阅读**
 **GAN开山鼻祖**：[Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
 
 **作者**：Ian J. Goodfellow（第一作者，单位蒙特利尔大学）
@@ -9,11 +9,12 @@
 
 分支 | 作用 | 训练目标 
  - | :-: | -: 
-  生成器 | 学习数据分布，生成尽可能逼真的图片| 最大化判别器产生错误的概率
+  生成器 | 学习数据分布，生成尽可能逼真的图片 | 最大化判别器产生错误的概率
   判别器 | 判断图片是真实图片还是生成器生成的假图片 | 最小化判别器产生错误的概率
   
  
  - 模型参数定义
+ 
    data→真实数据（groundtruth）
    pdata→真实数据的分布
    z→噪音（输入数据）
@@ -22,6 +23,6 @@
    G()→生成映射函数
    D()→判别映射函数
  - 目标函数
-min<sub>G</sub> max<sub>D</sub> V(D,G)=E<sub>x~pdata(x)</sub>[log D(x)]+E<sub>z~pz(z)</sub>[log (1-D(G(z)))]
+min<sub>G</sub> max<sub>D</sub> V(D,G)=E<sub> x~pdata(x) </sub>[log D(x)]+E<sub> z~pz(z) </sub>[log (1-D(G(z)))]
 - 生成器和判别器两者交替训练过程
  ![全局最优]（https://img-blog.csdn.net/20180222212344852）
