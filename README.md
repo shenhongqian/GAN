@@ -137,3 +137,6 @@ GAN设计的初衷是图像合成。可应用于有监督和无监督，从此�
   ![多域人脸合成](./pic/11.jpg)
  
 **GAN系列典型文章**
+- [DCGAN （ Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks）]）[https://arxiv.org/abs/1511.06434]
+
+解决问题：
