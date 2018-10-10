@@ -1,4 +1,4 @@
-# GAN### **GAN系列论文阅读**
+### **GAN系列论文阅读**
 **GAN开山鼻祖**：[Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
 
 **作者**：Ian J. Goodfellow（第一作者，单位蒙特利尔大学）
@@ -24,4 +24,4 @@
  - 目标函数
 min<sub>G</sub> max<sub>D</sub> V(D,G)=E<sub>x~pdata(x)</sub>[log D(x)]+E<sub>z~pz(z)</sub>[log (1-D(G(z)))]
 - 生成器和判别器两者交替训练过程
- ![全局最优]（https://img-blog.csdn.net/20180222212344852）
+ ![全局最优]（./pic/1.png）
