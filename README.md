@@ -82,7 +82,7 @@ GAN设计的初衷是图像合成。可应用于有监督和无监督，从此�
  [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
  
  [附公开DEMO](https://affinelayer.com/pixsrv/)
- 
+ 生成器可使用Encoder-Decoder,Unet等。
  本文中的应用场景包括以下几个方面：
  
  语义标注图-->街景图
