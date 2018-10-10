@@ -72,9 +72,13 @@ GAN设计的初衷是图像合成。可应用于有监督和无监督，从此�
 当样本维数比较高时，GAN 表现不是很好。
 
 - 有监督
+
 有监督的输入和输出都为图像，可概括说为图像翻译。根据应用场景不同，输入输出不同，即有监督需要标注。
+
 图像翻译指图像内容从一个域迁移到另一个域，可以看成是图像移除一个域的属性 ，然后赋予另一个域的属性。本质上，图像翻译的工作可直接由一般的CNN网络来完成，但是生成的图像不够逼真，效果没有使用GAN好。
- 1.pix2pix 系列：[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
+
+ 1.pix2pix 系列
+ [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
  [公开DEMO](https://affinelayer.com/pixsrv/)
  
  ![pix2pix](./pic/4.png)
