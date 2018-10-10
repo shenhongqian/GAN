@@ -103,7 +103,7 @@ GAN设计的初衷是图像合成。可应用于有监督和无监督，从此�
  [zi2zi: Master Chinese Calligraphy with Conditional Adversarial Networks](https://kaonashi-tyc.github.io/2017/04/06/zi2zi.html)
  合成字体的问题：
  （1）合成的字体单一，字体风格变化有限
- <img src=./pic/5.jpeg"" width="50%" height="50%">
+ <img src="./pic/5.jpeg" width="50%" height="50%">
  
  
  
