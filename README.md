@@ -14,12 +14,19 @@
  - 模型参数定义
 
   data→真实数据（groundtruth）
+  
   pdata→真实数据的分布
+  
   z→噪音（输入数据）
+  
   pz→原始噪音的分布
+  
   pg→经过生成器后的数据分布
+  
   G()→生成映射函数
+  
   D()→判别映射函数
+  
  - 目标函数
 min<sub>G</sub> max<sub>D</sub> V(D,G)=E<sub>x~pdata(x)</sub>[log D(x)]+E<sub>z~pz(z)</sub>[log (1-D(G(z)))]
 - 生成器和判别器两者交替训练过程
