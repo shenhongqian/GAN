@@ -28,7 +28,9 @@
   D()→判别映射函数
   
  - 目标函数
+ 
 min<sub>G</sub> max<sub>D</sub> V(D,G)=E<sub>x~pdata(x)</sub>[log D(x)]+E<sub>z~pz(z)</sub>[log (1-D(G(z)))]
+
 - 生成器和判别器两者交替训练过程
 
 ![训练过程](./pic/1.png)
