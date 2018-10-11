@@ -139,6 +139,13 @@ GAN设计的初衷是图像合成。可应用于有监督和无监督，从此�
  
 **GAN系列典型文章**
 - [CGAN - Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784)
+解决问题：原始GAN为无条件生成模型，对所生成的数据的模式没有控制，本文通过在添加类标签等辅助信息，指导数据生成过程。
+以手写数字数据集为例：
+|Tables         | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 - [DCGAN - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)
 
 解决问题：
