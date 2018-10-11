@@ -142,24 +142,10 @@ GAN设计的初衷是图像合成。可应用于有监督和无监督，从此�
 解决问题：原始GAN为无条件生成模型，对所生成的数据的模式没有控制，本文通过在添加类标签等辅助信息，指导数据生成过程，即可以生成定向样本。
 以手写数字数据集为例：
 
-  data→真实数据（groundtruth）
-  
-  pdata→真实数据的分布
-  
-  z→噪声（输入数据）
-  
-  pz→原始噪音的分布
-  
-  pg→经过生成器后的数据分布
-  
-  G()→生成映射函数
-  
-  D()→判别映射函数
-
 |    模型        | 生成器输入     | 判别器输入  | 损失函数 |
 | ------------- |:-------------:| -----:|-----:|
-| GAN     | 噪声z|真实/生成假数据 |E<sub>x~pdata(x)</sub>[log D(x)]+E<sub>z~pz(z)</sub>[log (1-D(G(z)))]|
-| CGAN      | 噪声z，条件变量y  | 真实/生成假数据,条件变量y |E<sub>x~pdata(x)</sub>[log D(x)]+E<sub>z~pz(z)</sub>[log (1-D(G(z)))] |
+| GAN     | 噪声z|真实(data)/生成假数据 |E<sub>x~pdata(x)</sub>[log D(x)]+E<sub>z~pz(z)</sub>[log (1-D(G(z)))]|
+| CGAN      | 噪声z，条件变量y  | 真实（data）/生成假数据,条件变量y |E<sub>x~pdata(x)</sub>[log D(x|y)]+E<sub>z~pz(z)</sub>[log (1-D(G(z|y)))] |
 
 
 - [DCGAN - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)
