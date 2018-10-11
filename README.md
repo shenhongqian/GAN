@@ -144,8 +144,8 @@ GAN设计的初衷是图像合成。可应用于有监督和无监督，从此�
 
 |    模型        | 生成器输入     | 判别器输入  | 损失函数 |
 | ------------- |:-------------:| -----:|-----:|
-| GAN     | 噪声z|真实(data)/生成假数据 |E<sub>x~pdata(x)</sub>[log D(x)]+E<sub>z~pz(z)</sub>[log (1-D(G(z)))]|
-| CGAN      | 噪声z，条件变量y  | 真实（data）/生成假数据,条件变量y |E<sub>x~pdata(x)</sub>[log D(x|y)]+E<sub>z~pz(z)</sub>[log (1-D(G(z|y)))] |
+| GAN  | 噪声z|真实(data)/生成假数据 |E<sub>x~pdata(x)</sub>[log D(x)]+E<sub>z~pz(z)</sub>[log (1-D(G(z)))]|
+| CGAN | 噪声z，条件变量y|真实/生成假数据,条件变量y|E<sub>x~pdata(x)</sub>[log D(x|y)]+E<sub>z~pz(z)</sub>[log (1-D(G(z|y)))] |
 
 
 - [DCGAN - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)
