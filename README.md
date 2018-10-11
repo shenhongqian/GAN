@@ -160,3 +160,4 @@ GAN设计的初衷是图像合成。可应用于有监督和无监督，从此�
 - 网络中没有池化和上采样的存在，使用带步长卷积代替
 - 使用BN操作
 
+- [WGAN -Wasserstein GAN ](https://arxiv.org/pdf/1701.07875.pdf)
