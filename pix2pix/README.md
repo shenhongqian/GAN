@@ -2,7 +2,7 @@
 **pix2pix**： [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf)
  [附公开DEMO](https://affinelayer.com/pixsrv/)
 
-**作者**：Ian J. Goodfellow（第一作者，单位蒙特利尔大学）
+**作者**：Phillip Isola（第一作者，加州大学伯克利分校伯克利艾实验室（BAIR）实验室）
 
 **应用** ：图像翻译指图像内容从一个域迁移到另一个域，可以看成是图像移除一个域的属性 ，然后赋予另一个域的属性。本质上，图像翻译的工作可直接由一般的CNN网络来完成，但是生成的图像不够逼真，图像边缘模糊，效果没有使用GAN好。
 
@@ -23,16 +23,20 @@
  
  ![pix2pix](./pic/1.png)
 
-** 网络结构**：
+**网络结构**：
  - 生成器
+ 
  ![生成器](./pic/2.png)
  
  - 判别器
+ 
   ![判别器](./pic/3.png)
   
  使用条件GAN，即输入为（图片，边缘）
  
-  - 目标函数
+**目标函数**：
+x 为input图像，y为output图像，z为噪声向量，作用生成多样化图像
+  
   （1）博弈目标函数
   
    A(G,D)=E<sub>x,y</sub>[log D(x,y)]+E<sub>x,z</sub>[log (1-D(x,G(x,z)))]
@@ -43,3 +47,6 @@
    
    最终目标函数：
    G<sub>*</sub> = arg min max (G,D) A+ \Lambda * B
+   
+**贡献**:
+提供了图像翻译的统一框架
