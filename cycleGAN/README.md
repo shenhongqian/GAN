@@ -25,6 +25,9 @@ Cycle-GAN 提供了一种更实用的图片生成模式，本质上是两个集�
 
 ！[loss](./pic/3.png)
 
+**整体架构**
+![net](./pic/5.png)
+
 **结果**：
 
 ![result](./pic/4.png)
