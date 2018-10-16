@@ -1,5 +1,5 @@
 ### **GAN系列论文阅读**
-**CGAN**：[Wasserstein GAN](http://arxiv.org/abs/1701.07875v2）
+**CGAN**：[Wasserstein GAN](https://arxiv.org/abs/1701.07875v2）
 
 **作者**：Martin Arjovsky（第一作者，单位Courant Institute of Mathematical Sciences，Facebook AI Research）
 
