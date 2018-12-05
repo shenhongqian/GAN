@@ -1,5 +1,5 @@
 ### 2018-11-28 ~ 2018-12-05
-### ** 论文阅读 **
+### **论文阅读
 **题目：Unpaired Brain MR-to-CT Synthesis using a Structure-Constrained CycleGAN
 
 **作者：Heran Yang，Jian Sun，Aaron Carass，Can Zhao，
@@ -22,7 +22,7 @@
 
 
 
-** 原文实验效果 **：
+**原文实验效果：
 ![cycle](./img/StructureConstrainedCycleGAN/2.png)
 
 **感想与思路**：
