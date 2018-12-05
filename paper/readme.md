@@ -1,6 +1,6 @@
 ### 2018-11-28 ~ 2018-12-05
 
-### **论文阅读
+### **论文阅读**
 
 **题目**：Unpaired Brain MR-to-CT Synthesis using a Structure-Constrained CycleGAN
 
@@ -31,6 +31,8 @@
 
 **感想与思路**：
 找到cycleGAN的两个转化方的一个共同的特征进行约束
+
+---
 
 ### 2018-09-17 ~ 2018-09-27
 ###  ** 实验 ** 
