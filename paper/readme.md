@@ -1,42 +1,43 @@
 ---
+
 ### 2018-11-28 ~ 2018-12-05
-### **论文阅读**
-**题目**：Unpaired Brain MR-to-CT Synthesis using a Structure-Constrained CycleGAN
+### ** 论文阅读 **
+** 题目 **：Unpaired Brain MR-to-CT Synthesis using a Structure-Constrained CycleGAN
 
-**作者**：Heran Yang，Jian Sun，Aaron Carass，Can Zhao，
+** 作者 **：Heran Yang，Jian Sun，Aaron Carass，Can Zhao，
 
-**机构**: 西安交大&约翰霍普金斯
+** 机构 **: 西安交大&约翰霍普金斯
 
-**简介** 使用CycleGAN完成由脑部MR到CT的转换，在CycleGAN中加入结构性约束
-**技术要点** ：加入的结构性约束为MIND(Modality independent neighbourhood descriptor for multi-modal deformable registration （2012 Medical Image Analysis）)
+** 简介 ** 使用CycleGAN完成由脑部MR到CT的转换，在CycleGAN中加入结构性约束
+** 技术要点 ** ：加入的结构性约束为MIND(Modality independent neighbourhood descriptor for multi-modal deformable registration （2012 Medical Image Analysis）)
 主要是说利用图像patch计算某一个图像块的特征，得到的这个特征和模态无关，最早用来解决医学图像不同模态之间的配准问题。
 计算方法： 
-![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/StructureConstrainedCycleGAN/0.png)
+![cycle](./img/StructureConstrainedCycleGAN/0.png)
 损失函数：
-![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/StructureConstrainedCycleGAN/1.png)
-**代码链接**：无
+![cycle](./img/StructureConstrainedCycleGAN/1.png)
+** 代码链接 **：无
 
-**数据集**： 共45例患者的脑部MR和CT（每个MR或CT病例大约有270张切面图像）
+** 数据集 **： 共45例患者的脑部MR和CT（每个MR或CT病例大约有270张切面图像）
 27个病例用于训练集
 3个病例用于验证集
 15个病例用于测试集
 
 
 
-**原文实验效果**：
-![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/StructureConstrainedCycleGAN/2.png)
+** 原文实验效果 **：
+![cycle](./img/StructureConstrainedCycleGAN/2.png)
 
 **感想与思路**：
 找到cycleGAN的两个转化方的一个共同的特征进行约束
 
 ### 2018-09-17 ~ 2018-09-27
-###  **实验** 
+###  ** 实验 ** 
 
-**实验意图与方向**：甲状腺分割
+** 实验意图与方向 **：甲状腺分割
 
-**实验来源**：实现论文[Semantic Segmentation using Adversarial Networks](https://arxiv.org/abs/1611.08408v1)的方法；；
+** 实验来源 **：实现论文[Semantic Segmentation using Adversarial Networks](https://arxiv.org/abs/1611.08408v1)的方法；；
 	
-**实验结果**：
+** 实验结果 **：
 |实验|交并比(%)|
 |:-|:-|
 |FCN|78.12|
@@ -49,7 +50,7 @@
 3.  GAN-2 为调节生成器和判别器的训练不属迭代，k=3
 4. GAN-3 为改变判别器的输入，原始图像+掩码/预测
 
-**存在问题**：
+** 存在问题 **：
 
 1. 训练过程判别分支的正确率在0.5上下摆动，在生成网络中起到的作用可能不是很大
 2. 实验效果并没有向论文中说的效果，反而GAN生成的交并比小于0.4的图片与FCN的效果差距有些大，预测出来的结节部分偏小，而且不连续
