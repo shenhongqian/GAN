@@ -1,0 +1,115 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{872908}
+Alam, M.S., Bognar, J.G., Hardie, R.C., Yasuda, B.J.: Infrared image
+  registration and high-resolution reconstruction using multiple
+  translationally shifted aliased video frames. IEEE Transactions on
+  Instrumentation and Measurement  49(5),  915--923 (Oct 2000)
+
+\bibitem{Dong2014Learning}
+Dong, C., Chen, C.L., He, K., Tang, X.: Learning a Deep Convolutional Network
+  for Image Super-Resolution. Springer International Publishing (2014)
+
+\bibitem{Dong2016Accelerating}
+Dong, C., Chen, C.L., Tang, X.: Accelerating the super-resolution convolutional
+  neural network. In: IEEE Conference on Computer Vision and Pattern
+  Recognition. pp. 1646--1654 (2016)
+
+\bibitem{He2015Deep}
+He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image
+  recognition. In: 2016 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR). pp. 770--778 (June 2016)
+
+\bibitem{1163154}
+Hou, H., Andrews, H.: Cubic splines for image interpolation and digital
+  filtering. IEEE Transactions on Acoustics, Speech, and Signal Processing
+  26(6),  508--517 (Dec 1978)
+
+\bibitem{IRANI1991231}
+Irani, M., Peleg, S.: Improving resolution by image registration. CVGIP:
+  Graphical Models and Image Processing  53(3),  231 -- 239 (1991),
+  \url{http://www.sciencedirect.com/science/article/pii/104996529190045L}
+
+\bibitem{Kim2015Accurate}
+Kim, J., Lee, J.K., Lee, K.M.: Accurate image super-resolution using very deep
+  convolutional networks. In: 2016 IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR). pp. 1646--1654 (June 2016)
+
+\bibitem{Kim2015Deeply}
+Kim, J., Lee, J.K., Lee, K.M.: Deeply-recursive convolutional network for image
+  super-resolution. In: 2016 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR). pp. 1637--1645 (2016)
+
+\bibitem{56062}
+Kim, S.P., Bose, N.K., Valenzuela, H.M.: Recursive reconstruction of high
+  resolution image from noisy undersampled multiframes. IEEE Transactions on
+  Acoustics, Speech, and Signal Processing  38(6),  1013--1027 (Jun 1990)
+
+\bibitem{Kolte2013Image}
+Kolte, R., Arora, A.: Image super-resolution. Lap Lambert Academic Publishing
+  3(10),  7195 -- 7199 (2013)
+
+\bibitem{Lai2017Deep}
+Lai, W.S., Huang, J.B., Ahuja, N., Yang, M.H.: Deep laplacian pyramid networks
+  for fast and accurate super-resolution. In: IEEE Conference on Computer
+  Vision and Pattern Recognition. pp. 5835--5843 (2017)
+
+\bibitem{Ledig2016Photo}
+Ledig, C., Theis, L., Huszar, F., Caballero, J., Cunningham, A., Acosta, A.,
+  Aitken, A., Tejani, A., Totz, J., Wang, Z.: Photo-realistic single image
+  super-resolution using a generative adversarial network. In: 2017 IEEE
+  Conference on Computer Vision and Pattern Recognition (CVPR). pp. 105--114
+  (2017)
+
+\bibitem{Li2015Super}
+Li, L., Chen, Y., Xu, T., Liu, R., Shi, K., Huang, C.: Super-resolution mapping
+  of wetland inundation from remote sensing imagery based on integration of
+  back-propagation neural network and genetic algorithm. Remote Sensing of
+  Environment  164,  142--154 (2015)
+
+\bibitem{Lim2017Enhanced}
+Lim, B., Son, S., Kim, H., Nah, S., Lee, K.M.: Enhanced deep residual networks
+  for single image super-resolution. In: IEEE Conference on Computer Vision and
+  Pattern Recognition Workshops. pp. 1132--1140 (2017)
+
+\bibitem{Patti1997Superresolution}
+Patti, A.J., Sezan, M.I., Murat, T.A.: Superresolution video reconstruction
+  with arbitrary sampling lattices and nonzero aperture time. IEEE Trans Image
+  Process  6(8),  1064--76 (1997)
+
+\bibitem{503915}
+Schultz, R.R., Stevenson, R.L.: Extraction of high-resolution frames from video
+  sequences. IEEE Transactions on Image Processing  5(6),  996--1011 (Jun 1996)
+
+\bibitem{Shu2013Example}
+Shu~Zhang, S.Y.Z.: Example-based super-resolution. IEEE Computer Graphics and
+  Applications  (2013)
+
+\bibitem{Szegedy2014Going}
+Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., Erhan, D.,
+  Vanhoucke, V., Rabinovich, A.: Going deeper with convolutions. In: IEEE
+  Conference on Computer Vision and Pattern Recognition. pp. 1--9 (2015)
+
+\bibitem{Yang2010Image}
+Yang, J., Wright, J., Huang, T.S., Ma, Y.: Image super-resolution via sparse
+  representation. IEEE Transactions on Image Processing  19(11),  2861--2873
+  (2010)
+
+\bibitem{Yang2008Image}
+Yang, J., Wright, J., Huang, T., Ma, Y.: Image super-resolution as sparse
+  representation of raw image patches. In: Computer Vision and Pattern
+  Recognition, 2008. CVPR 2008. IEEE Conference on. pp. 1--8 (2008)
+
+\bibitem{Zhang2014Super}
+Zhang, H., Yang, Z., Zhang, L., Shen, H.: Super-resolution reconstruction for
+  multi-angle remote sensing images considering resolution differences. Remote
+  Sensing  6(1),  637--657 (2014)
+
+\bibitem{Zhang2012A}
+Zhang, L., Zhang, L., Mou, X., Zhang, D.: A comprehensive evaluation of full
+  reference image quality assessment algorithms. In: 2012 19th IEEE
+  International Conference on Image Processing. pp. 1477--1480 (2012)
+
+\end{thebibliography}

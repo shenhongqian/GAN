@@ -1,0 +1,807 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.4.29)  16 NOV 2018 15:43
+entering extended mode
+**paper.tex
+(C:\Users\i.t\Desktop\paper\paper.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(C:\Users\i.t\Desktop\paper\llncs.cls
+Document Class: llncs 2015/06/24 v2.20 
+ LaTeX document class for Lecture Notes in Computer Science
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen108
+\multicolovershoot=\dimen109
+\multicolundershoot=\dimen110
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count95
+)
+(C:\Users\i.t\Desktop\paper\aliascnt.sty
+Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
+
+(C:\Users\i.t\Desktop\paper\remreset.sty))
+\c@chapter=\count96
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen111
+\tocsecnum=\dimen112
+\tocsectotal=\dimen113
+\tocsubsecnum=\dimen114
+\tocsubsectotal=\dimen115
+\tocsubsubsecnum=\dimen116
+\tocsubsubsectotal=\dimen117
+\tocparanum=\dimen118
+\tocparatotal=\dimen119
+\tocsubparanum=\dimen120
+\@tempcntc=\count97
+\fnindent=\dimen121
+\c@@inst=\count98
+\c@@auth=\count99
+\c@auco=\count100
+\instindent=\dimen122
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count101
+\c@case=\count102
+\c@conjecture=\count103
+\c@corollary=\count104
+\c@definition=\count105
+\c@example=\count106
+\c@exercise=\count107
+\c@lemma=\count108
+\c@note=\count109
+\c@problem=\count110
+\c@property=\count111
+\c@proposition=\count112
+\c@question=\count113
+\c@solution=\count114
+\c@remark=\count115
+\headlineindent=\dimen123
+)
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("D:\Program Files (x86)\ctex\MiKTeX\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("D:\Program Files (x86)\ctex\MiKTeX\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count116
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip45
+\subfigcapskip=\skip46
+\subfigcaptopadj=\dimen126
+\subfigbottomskip=\skip47
+\subfigcapmargin=\dimen127
+\subfiglabelskip=\skip48
+\c@subfigure=\count117
+\c@lofdepth=\count118
+\c@subtable=\count119
+\c@lotdepth=\count120
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip49
+\subfig@bottom=\skip50
+)
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\bbding\bbding.sty"
+Package: bbding 1999/04/15 v1.01 Dingbats symbols
+)
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen128
+)
+(C:\Users\i.t\Desktop\paper\paper.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+
+("D:\Program Files (x86)\ctex\MiKTeX\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count121
+\scratchdimen=\dimen129
+\scratchbox=\box54
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen130
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks21
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+ ("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+ding on input line 41.
+
+("D:\Program Files (x86)\ctex\MiKTeX\tex\latex\bbding\uding.fd"
+File: Uding.fd 1996/02/01 v1.0 BBding font definitions
+)
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 41.
+
+LaTeX Font Info:    No file OMScmtt.fd. on input line 41.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 41.
+
+
+LaTeX Warning: Citation `Kolte2013Image' on page 1 undefined on input line 51.
+
+
+Overfull \hbox (2.15381pt too wide) in paragraph at lines 51--52
+\OT1/cmr/m/n/10 High-resolution(HR) im-ages con-tain more in-for-ma-tion and be
+t-ter ac-cu-ra-cy, which
+ []
+
+
+LaTeX Warning: Citation `1163154' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `872908' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `IRANI1991231' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `56062' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `Patti1997Superresolution' on page 1 undefined on input
+ line 53.
+
+
+LaTeX Warning: Citation `503915' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `Shu2013Example' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `Yang2008Image' on page 1 undefined on input line 53.
+
+
+Overfull \hbox (2.0994pt too wide) in paragraph at lines 53--54
+\OT1/cmr/m/n/10 frame re-con-struc-tion and learning-based meth-od-s.The ear-ly
+ in-ter-po-la-tion method
+ []
+
+[1
+
+
+{D:/Program Files (x86)/ctex/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGB
+K.sfd}}]
+
+LaTeX Warning: Citation `Dong2014Learning' on page 2 undefined on input line 55
+.
+
+
+LaTeX Warning: Citation `Kim2015Accurate' on page 2 undefined on input line 55.
+
+
+
+LaTeX Warning: Citation `Dong2014Learning' on page 2 undefined on input line 55
+.
+
+
+LaTeX Warning: Citation `Kim2015Accurate' on page 2 undefined on input line 55.
+
+
+
+LaTeX Warning: Citation `Dong2016Accelerating' on page 2 undefined on input lin
+e 55.
+
+
+LaTeX Warning: Citation `Kim2015Deeply' on page 2 undefined on input line 56.
+
+
+LaTeX Warning: Citation `Lai2017Deep' on page 2 undefined on input line 56.
+
+
+LaTeX Warning: Citation `Ledig2016Photo' on page 2 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 2 undefined on input line 57.
+
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 2 undefined on input line 57.
+
+
+
+LaTeX Warning: Citation `Ledig2016Photo' on page 2 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Li2015Super' on page 2 undefined on input line 59.
+
+
+LaTeX Warning: Citation `Zhang2014Super' on page 2 undefined on input line 59.
+
+
+LaTeX Warning: Citation `Yang2010Image' on page 2 undefined on input line 59.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+
+LaTeX Warning: Citation `Dong2014Learning' on page 3 undefined on input line 70
+.
+
+
+LaTeX Warning: Citation `He2015Deep' on page 3 undefined on input line 70.
+
+
+LaTeX Warning: Citation `Ledig2016Photo' on page 3 undefined on input line 73.
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 3 undefined on input line 73.
+
+
+
+LaTeX Warning: Citation `Ledig2016Photo' on page 3 undefined on input line 73.
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 3 undefined on input line 73.
+
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 3 undefined on input line 73.
+
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 3 undefined on input line 73.
+
+
+
+LaTeX Warning: Citation `Szegedy2014Going' on page 3 undefined on input line 75
+.
+
+[3]
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 4 undefined on input line 77.
+
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 4 undefined on input line 84.
+
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 4 undefined on input line 84.
+
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 4 undefined on input line 84.
+
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 4 undefined on input line 84.
+
+
+<pic/1.png, id=21, 401.5pt x 401.5pt>
+File: pic/1.png Graphic file (type png)
+ <use pic/1.png>
+Package pdftex.def Info: pic/1.png used on input line 93.
+(pdftex.def)             Requested size: 150.56825pt x 200.75562pt.
+
+Overfull \hbox (36.75723pt too wide) in paragraph at lines 93--93
+[][] 
+ []
+
+<pic/2.png, id=22, 401.5pt x 401.5pt>
+File: pic/2.png Graphic file (type png)
+ <use pic/2.png>
+Package pdftex.def Info: pic/2.png used on input line 100.
+(pdftex.def)             Requested size: 150.56825pt x 200.75562pt.
+
+<pic/network.png, id=23, 719.68875pt x 250.9375pt>
+File: pic/network.png Graphic file (type png)
+ <use pic/network.png>
+Package pdftex.def Info: pic/network.png used on input line 108.
+(pdftex.def)             Requested size: 287.87039pt x 100.37321pt.
+
+
+LaTeX Warning: Citation `Zhang2012A' on page 4 undefined on input line 114.
+
+[4] [5 <C:/Users/i.t/Desktop/paper/pic/1.png (PNG copy)> <C:/Users/i.t/Desktop/
+paper/pic/2.png (PNG copy)> <C:/Users/i.t/Desktop/paper/pic/network.png (PNG co
+py)>]
+
+LaTeX Warning: Citation `Dong2014Learning' on page 6 undefined on input line 13
+9.
+
+
+LaTeX Warning: Citation `Kim2015Accurate' on page 6 undefined on input line 139
+.
+
+
+LaTeX Warning: Citation `Lim2017Enhanced' on page 6 undefined on input line 139
+.
+
+[6] <pic/2x/hr/518.png, id=33, 128.48pt x 128.48pt>
+File: pic/2x/hr/518.png Graphic file (type png)
+ <use pic/2x/hr/518.png>
+Package pdftex.def Info: pic/2x/hr/518.png used on input line 173.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/2x/hr/small-518.png, id=34, 64.24pt x 32.12pt>
+File: pic/2x/hr/small-518.png Graphic file (type png)
+
+<use pic/2x/hr/small-518.png>
+Package pdftex.def Info: pic/2x/hr/small-518.png used on input line 174.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (14.40242pt too wide) in paragraph at lines 173--176
+[][]
+ []
+
+
+Overfull \hbox (14.4034pt too wide) in paragraph at lines 173--176
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
+\OT1/cmr/m/n/9 HR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
+\OT1/cmr/m/n/9 P-SNR
+ []
+
+<pic/2x/bicu/pick-518.png, id=35, 128.48pt x 128.48pt>
+File: pic/2x/bicu/pick-518.png Graphic file (type png)
+
+<use pic/2x/bicu/pick-518.png>
+Package pdftex.def Info: pic/2x/bicu/pick-518.png used on input line 179.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/2x/bicu/small-518.png, id=36, 64.24pt x 32.12pt>
+File: pic/2x/bicu/small-518.png Graphic file (type png)
+
+<use pic/2x/bicu/small-518.png>
+Package pdftex.def Info: pic/2x/bicu/small-518.png used on input line 180.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (11.5574pt too wide) in paragraph at lines 179--182
+[][]
+ []
+
+
+Overfull \hbox (11.55838pt too wide) in paragraph at lines 179--182
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
+\OT1/cmr/m/n/9 Bicu-bic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
+\OT1/cmr/m/n/9 29.174d-B
+ []
+
+<pic/2x/srcnn/pick-518.png, id=37, 128.48pt x 128.48pt>
+File: pic/2x/srcnn/pick-518.png Graphic file (type png)
+
+<use pic/2x/srcnn/pick-518.png>
+Package pdftex.def Info: pic/2x/srcnn/pick-518.png used on input line 185.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/2x/srcnn/small-518.png, id=38, 64.24pt x 32.12pt>
+File: pic/2x/srcnn/small-518.png Graphic file (type png)
+
+<use pic/2x/srcnn/small-518.png>
+Package pdftex.def Info: pic/2x/srcnn/small-518.png used on input line 186.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (14.40242pt too wide) in paragraph at lines 185--188
+[][]
+ []
+
+
+Overfull \hbox (14.4034pt too wide) in paragraph at lines 185--188
+[]
+ []
+
+<pic/2x/vdsr/pick-518.png, id=39, 128.48pt x 128.48pt>
+File: pic/2x/vdsr/pick-518.png Graphic file (type png)
+
+<use pic/2x/vdsr/pick-518.png>
+Package pdftex.def Info: pic/2x/vdsr/pick-518.png used on input line 192.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/2x/vdsr/small-518.png, id=40, 64.24pt x 32.12pt>
+File: pic/2x/vdsr/small-518.png Graphic file (type png)
+
+<use pic/2x/vdsr/small-518.png>
+Package pdftex.def Info: pic/2x/vdsr/small-518.png used on input line 193.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (14.40242pt too wide) in paragraph at lines 192--195
+[][]
+ []
+
+
+Overfull \hbox (14.4034pt too wide) in paragraph at lines 192--195
+[]
+ []
+
+<pic/2x/edsr/pick-518.png, id=41, 128.48pt x 128.48pt>
+File: pic/2x/edsr/pick-518.png Graphic file (type png)
+
+<use pic/2x/edsr/pick-518.png>
+Package pdftex.def Info: pic/2x/edsr/pick-518.png used on input line 199.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/2x/edsr/small-518.png, id=42, 64.24pt x 32.12pt>
+File: pic/2x/edsr/small-518.png Graphic file (type png)
+
+<use pic/2x/edsr/small-518.png>
+Package pdftex.def Info: pic/2x/edsr/small-518.png used on input line 200.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (14.40242pt too wide) in paragraph at lines 199--202
+[][]
+ []
+
+
+Overfull \hbox (14.4034pt too wide) in paragraph at lines 199--202
+[]
+ []
+
+<pic/2x/dcer/pick-518.png, id=43, 128.48pt x 128.48pt>
+File: pic/2x/dcer/pick-518.png Graphic file (type png)
+
+<use pic/2x/dcer/pick-518.png>
+Package pdftex.def Info: pic/2x/dcer/pick-518.png used on input line 206.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/2x/dcer/small-518.png, id=44, 64.24pt x 32.12pt>
+File: pic/2x/dcer/small-518.png Graphic file (type png)
+
+<use pic/2x/dcer/small-518.png>
+Package pdftex.def Info: pic/2x/dcer/small-518.png used on input line 207.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (14.40242pt too wide) in paragraph at lines 206--209
+[][]
+ []
+
+
+Overfull \hbox (14.4034pt too wide) in paragraph at lines 206--209
+[]
+ []
+
+<pic/4x/hr/35.png, id=45, 256.96pt x 256.96pt>
+File: pic/4x/hr/35.png Graphic file (type png)
+ <use pic/4x/hr/35.png>
+Package pdftex.def Info: pic/4x/hr/35.png used on input line 212.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/4x/hr/small-35.png, id=46, 64.24pt x 32.12pt>
+File: pic/4x/hr/small-35.png Graphic file (type png)
+
+<use pic/4x/hr/small-35.png>
+Package pdftex.def Info: pic/4x/hr/small-35.png used on input line 213.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (14.40242pt too wide) in paragraph at lines 212--215
+[][]
+ []
+
+
+Overfull \hbox (14.4034pt too wide) in paragraph at lines 212--215
+[]
+ []
+
+<pic/4x/bicu/pick-35.png, id=47, 256.96pt x 256.96pt>
+File: pic/4x/bicu/pick-35.png Graphic file (type png)
+
+<use pic/4x/bicu/pick-35.png>
+Package pdftex.def Info: pic/4x/bicu/pick-35.png used on input line 218.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/4x/bicu/small-35.png, id=48, 64.24pt x 32.12pt>
+File: pic/4x/bicu/small-35.png Graphic file (type png)
+
+<use pic/4x/bicu/small-35.png>
+Package pdftex.def Info: pic/4x/bicu/small-35.png used on input line 219.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (14.40242pt too wide) in paragraph at lines 218--221
+[][]
+ []
+
+
+Overfull \hbox (14.4034pt too wide) in paragraph at lines 218--221
+[]
+ []
+
+<pic/4x/srcnn/pick-35.png, id=49, 256.96pt x 256.96pt>
+File: pic/4x/srcnn/pick-35.png Graphic file (type png)
+
+<use pic/4x/srcnn/pick-35.png>
+Package pdftex.def Info: pic/4x/srcnn/pick-35.png used on input line 224.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/4x/srcnn/small-35.png, id=50, 64.24pt x 32.12pt>
+File: pic/4x/srcnn/small-35.png Graphic file (type png)
+
+<use pic/4x/srcnn/small-35.png>
+Package pdftex.def Info: pic/4x/srcnn/small-35.png used on input line 225.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (11.5574pt too wide) in paragraph at lines 224--227
+[][]
+ []
+
+
+Overfull \hbox (11.55838pt too wide) in paragraph at lines 224--227
+[]
+ []
+
+<pic/4x/vdsr/pick-35.png, id=51, 256.96pt x 256.96pt>
+File: pic/4x/vdsr/pick-35.png Graphic file (type png)
+
+<use pic/4x/vdsr/pick-35.png>
+Package pdftex.def Info: pic/4x/vdsr/pick-35.png used on input line 230.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/4x/vdsr/small-35.png, id=52, 64.24pt x 32.12pt>
+File: pic/4x/vdsr/small-35.png Graphic file (type png)
+
+<use pic/4x/vdsr/small-35.png>
+Package pdftex.def Info: pic/4x/vdsr/small-35.png used on input line 231.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (14.40242pt too wide) in paragraph at lines 230--233
+[][]
+ []
+
+
+Overfull \hbox (14.4034pt too wide) in paragraph at lines 230--233
+[]
+ []
+
+<pic/4x/edsr/pick-35.png, id=53, 256.96pt x 256.96pt>
+File: pic/4x/edsr/pick-35.png Graphic file (type png)
+
+<use pic/4x/edsr/pick-35.png>
+Package pdftex.def Info: pic/4x/edsr/pick-35.png used on input line 236.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/4x/edsr/small-35.png, id=54, 64.24pt x 32.12pt>
+File: pic/4x/edsr/small-35.png Graphic file (type png)
+
+<use pic/4x/edsr/small-35.png>
+Package pdftex.def Info: pic/4x/edsr/small-35.png used on input line 237.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (14.40242pt too wide) in paragraph at lines 236--239
+[][]
+ []
+
+
+Overfull \hbox (14.4034pt too wide) in paragraph at lines 236--239
+[]
+ []
+
+<pic/4x/dcer/pick-35.png, id=55, 256.96pt x 256.96pt>
+File: pic/4x/dcer/pick-35.png Graphic file (type png)
+
+<use pic/4x/dcer/pick-35.png>
+Package pdftex.def Info: pic/4x/dcer/pick-35.png used on input line 242.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/4x/dcer/small-35.png, id=56, 64.24pt x 32.12pt>
+File: pic/4x/dcer/small-35.png Graphic file (type png)
+
+<use pic/4x/dcer/small-35.png>
+Package pdftex.def Info: pic/4x/dcer/small-35.png used on input line 243.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (14.40242pt too wide) in paragraph at lines 242--245
+[][]
+ []
+
+
+Overfull \hbox (14.4034pt too wide) in paragraph at lines 242--245
+[]
+ []
+
+<pic/8x/hr/437.png, id=57, 256.96pt x 256.96pt>
+File: pic/8x/hr/437.png Graphic file (type png)
+ <use pic/8x/hr/437.png>
+Package pdftex.def Info: pic/8x/hr/437.png used on input line 249.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/8x/hr/small-437.png, id=58, 64.24pt x 32.12pt>
+File: pic/8x/hr/small-437.png Graphic file (type png)
+
+<use pic/8x/hr/small-437.png>
+Package pdftex.def Info: pic/8x/hr/small-437.png used on input line 250.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (11.5574pt too wide) in paragraph at lines 249--252
+[][]
+ []
+
+
+Overfull \hbox (11.55838pt too wide) in paragraph at lines 249--252
+[]
+ []
+
+<pic/8x/bicu/pick-437.png, id=59, 256.96pt x 256.96pt>
+File: pic/8x/bicu/pick-437.png Graphic file (type png)
+
+<use pic/8x/bicu/pick-437.png>
+Package pdftex.def Info: pic/8x/bicu/pick-437.png used on input line 256.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/8x/bicu/small-437.png, id=60, 64.24pt x 32.12pt>
+File: pic/8x/bicu/small-437.png Graphic file (type png)
+
+<use pic/8x/bicu/small-437.png>
+Package pdftex.def Info: pic/8x/bicu/small-437.png used on input line 257.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (11.5574pt too wide) in paragraph at lines 256--259
+[][]
+ []
+
+
+Overfull \hbox (11.55838pt too wide) in paragraph at lines 256--259
+[]
+ []
+
+<pic/8x/srcnn/pick-437.png, id=61, 256.96pt x 256.96pt>
+File: pic/8x/srcnn/pick-437.png Graphic file (type png)
+
+<use pic/8x/srcnn/pick-437.png>
+Package pdftex.def Info: pic/8x/srcnn/pick-437.png used on input line 263.
+(pdftex.def)             Requested size: 51.39108pt x 51.39108pt.
+
+<pic/8x/srcnn/small-437.png, id=62, 64.24pt x 32.12pt>
+File: pic/8x/srcnn/small-437.png Graphic file (type png)
+
+<use pic/8x/srcnn/small-437.png>
+Package pdftex.def Info: pic/8x/srcnn/small-437.png used on input line 264.
+(pdftex.def)             Requested size: 51.39206pt x 25.69601pt.
+
+Overfull \hbox (8.71196pt too wide) in paragraph at lines 263--26
