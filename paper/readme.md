@@ -1,6 +1,7 @@
----
 ### 2018-11-28 ~ 2018-12-05
+
 ### **论文阅读
+
 **题目**：Unpaired Brain MR-to-CT Synthesis using a Structure-Constrained CycleGAN
 
 **作者**：Heran Yang，Jian Sun，Aaron Carass，Can Zhao，
@@ -60,6 +61,7 @@
 ### 2018-09-10 ~ 2018-09-17
 
 ### **论文阅读**
+
 **题目**：Semantic Segmentation using Adversarial Networks
 
 **作者**：Pauline Luc，Camille Couprie，Soumith Chintala，Jakob Verbeek
