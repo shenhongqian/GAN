@@ -11,29 +11,27 @@
 **机构**: 美国加州大学默塞德分校、美国NEC实验室、国立台湾大学、中国科学院，台湾
 
 **简介** ：采用对抗训练的思想进行半监督语义分割，重新设计鉴别器
-		   与一般的弱监督方法不同，除了像素级标签数据外，另外的数据不带有任何标签
+与一般的弱监督方法不同，除了像素级标签数据外，另外的数据不带有任何标签
 
 **技术要点** ：
 
-![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/0.png)
+![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/1.png)
 
 
-  分割网络：输出类概率图（H*W*3），
-                 可以是任何形式的分割网络
-               鉴别网络：输出空间概率置信度图(H*W*1)，
-                  置信度图指示了分割的局部质量，
-                  使得分割网络在训练期间信任哪些区域
-                  其中像素点p代表这个来自gournd truth(p=1)
-                  还是generator(p=0)
-                损失函数：
-			   input: Xn
-			   segmentation network: S(.)
-				predicted probability map :S(Xn)
-				ground truth: Yn
-				 训练过程
-				 鉴别器只使用带标签数据
-				 先进行全监督训练，迭代5000次，然后进行半监督训练
-				半监督训练时，随机迭代带标记数据和无标记数据
+  分割网络：输出类概率图（H*W*3），可以是任何形式的分割网络
+  鉴别网络：输出空间概率置信度图(H*W*1)，
+          置信度图指示了分割的局部质量，
+          使得分割网络在训练期间信任哪些区域
+          其中像素点p代表这个来自gournd truth(p=1)
+          还是generator(p=0)
+  损失函数：input: Xn
+  segmentation network: S(.)
+  predicted probability map :S(Xn)
+  ground truth: Yn
+  训练过程:
+  鉴别器只使用带标签数据
+  先进行全监督训练，迭代5000次，然后进行半监督训练
+  半监督训练时，随机迭代带标记数据和无标记数据
 
 
 
@@ -42,7 +40,11 @@
 **数据集**：PASCAL VOC 2012 数据集（21分类），是关于语义分割的数据集，[下载地址](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
             Cityscapes  数据集（19分类）
 **原文实验效果**：
-
+![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/2.png)
+![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/3.png)
+![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/4.png)
+![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/5.png)
+![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/6.png)
 **感想与思路**：在gan的基础上进行改进，优点是把原来只判断图像是真实的还是虚假的，改成了图像像素点的分割置信度图，有一定的实验效果，但是看原文给的置信度图，觉得还没有起到真正的作用
 ---
 ### 2018-11-28 ~ 2018-12-05
