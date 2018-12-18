@@ -2,6 +2,7 @@
 ### 2018-12-12 ~ 2018-12-18
 
 ### **论文阅读**
+
 **题目**：ADVERSARIAL LEARNING FOR SEMI-SUPERVISED SEMANTIC SEGMENTATION
 
 
@@ -40,11 +41,17 @@
 **数据集**：PASCAL VOC 2012 数据集（21分类），是关于语义分割的数据集，[下载地址](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
             Cityscapes  数据集（19分类）
 **原文实验效果**：
+
 ![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/2.png)
+
 ![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/3.png)
+
 ![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/4.png)
+
 ![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/5.png)
+
 ![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/6.png)
+
 **感想与思路**：在gan的基础上进行改进，优点是把原来只判断图像是真实的还是虚假的，改成了图像像素点的分割置信度图，有一定的实验效果，但是看原文给的置信度图，觉得还没有起到真正的作用
 ---
 ### 2018-11-28 ~ 2018-12-05
