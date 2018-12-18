@@ -20,6 +20,16 @@
                   使得分割网络在训练期间信任哪些区域
                   其中像素点p代表这个来自gournd truth(p=1)
                   还是generator(p=0)
+               +  损失函数：
+			   input: Xn
+			   segmentation network: S(.)
+				predicted probability map :S(Xn)
+				ground truth: Yn
+				+ 训练过程
+				● 鉴别器只使用带标签数据
+				● 先进行全监督训练，迭代5000次，然后进行半监督训练
+				● 半监督训练时，随机迭代带标记数据和无标记数据
+
 
 
 **代码链接**：[semiGAN](https://github.com/hfslyc/AdvSemiSeg)
