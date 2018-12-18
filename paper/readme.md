@@ -1,23 +1,16 @@
+
 ---
+
 ### 2018-12-12 ~ 2018-12-18
 
 ### **论文阅读**
 
 **题目**：ADVERSARIAL LEARNING FOR SEMI-SUPERVISED SEMANTIC SEGMENTATION
-
-
 **作者**：Wei-Chih Hung, Yi-Hsuan Tsai, Yan-Ting Liou, Yen-Yu Lin, Ming-Hsuan Yang
-
-
 **机构**: 美国加州大学默塞德分校、美国NEC实验室、国立台湾大学、中国科学院，台湾
-
-**简介** ：采用对抗训练的思想进行半监督语义分割，重新设计鉴别器
-与一般的弱监督方法不同，除了像素级标签数据外，另外的数据不带有任何标签
-
+**简介** ：采用对抗训练的思想进行半监督语义分割，重新设计鉴别器,与一般的弱监督方法不同，除了像素级标签数据外，另外的数据不带有任何标签
 **技术要点** ：
-
 ![cycle](https://github.com/shenhongqian/GAN/blob/master/paper/img/semiGAN/1.png)
-
 
   分割网络：输出类概率图（H*W*3），可以是任何形式的分割网络
   鉴别网络：输出空间概率置信度图(H*W*1)，
@@ -33,8 +26,6 @@
   鉴别器只使用带标签数据
   先进行全监督训练，迭代5000次，然后进行半监督训练
   半监督训练时，随机迭代带标记数据和无标记数据
-
-
 
 **代码链接**：[semiGAN](https://github.com/hfslyc/AdvSemiSeg)
 
